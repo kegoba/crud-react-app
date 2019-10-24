@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn{
+  margin:10px ;
+  width: 50%;
+  padding: 10px;
+  
+}
+input[type="text"], button[type="submit"], input[type="password"]{
+  margin:10px ;
+  width: 50%;
+  padding: 10px;
+ 
+}
+@media(max-width:700px){
+  input[type="text"],button[type="submit"],  input[type="password"]{
+  margin:1px ;
+  width: 100%!important;
+  padding: 1px;
+}
+
+
+}
+@media (max-width:700px){
+.btn{
+  margin:10px ;
+  width: 100%;
+  padding: 10px;
+  
+}
+}
+.home{
+  width: 100%
+
+}
+img{
+  transition: all 1s;
+}
+
+
+
+img:hover{
+  transform: scale(1.1)
+}
+
+.title{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+
+table{
+  width: 100%;
+  padding:0%;
+}
+@media (max-width: 700px){
+   tr{
+    
+    padding: 0%;
+    margin:0%;
+  }
+}
+p, h4{
+  margin-top: 20px;
+  margin-bottom: 5px
+}
+
+.loader{
+  margin-top: 50px;
+  block-size: 60%
+}
